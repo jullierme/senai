@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-growl/css/growl.css"/>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-ui-growl/src/growl.js"></script>
+
+    <script src="app/js/index-controller4.js"></script>
+    <script src="app/js/filters/maiusculo-filter.js"></script>
+    <script src="app/js/service/alert-service.js"></script>
+</head>
+
+<body ng-app="senai">
+<div ng-controller="IndexController" class="container">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Cadastro de pessoa</div>
+        <div class="panel-body">
+
+            <form novalidate name="myForm"
+                  ng-submit="salvar()">
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="itNome">
+                                <label>Nome</label>
+                                <i style="color: red" class="fa fa-asterisk"></i>
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   name="itNome"
+                                   id="itNome"
+                                   ng-model="entidade.nome"
+                                   required
+                                   ng-minlength="3"
+                                   ng-maxlength="15"
+                                   maxlength="15">
+
+                            <div ng-messages="myForm.itNome.$error"
+                                 ng-show="myForm.itNome.$dirty">
+                                <p ng-message="minlength">Campo muito curto.</p>
+
+                                <p ng-message="maxlength">Campo muito longo.</p>
+
+                                <p ng-message="required">Campo obrigatório.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="itEmail">E-mail</label>
+                            <input type="email"
+                                   class="form-control"
+                                   id="itEmail"
+                                   name="itEmail"
+                                   ng-model="entidade.email"
+                                   ng-required="true"
+                                   ng-minlength="3"
+                                   ng-maxlength="15">
+
+                            <div ng-messages="myForm.itEmail.$error"
+                                 ng-show="myForm.itEmail.$dirty">
+                                <p ng-message="minlength">Campo muito curto.</p>
+
+                                <p ng-message="maxlength">Campo muito longo.</p>
+
+                                <p ng-message="required">Campo obrigatório.</p>
+
+                                <p ng-message="email">E-mail inválido</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="itNascimento">Dt Nascimento</label>
+                            <input type="date"
+                                   class="form-control"
+                                   id="itNascimento"
+                                   name="itNascimento"
+                                   ng-model="entidade.nascimento"
+                                   required>
+
+                            <div ng-messages="myForm.itNascimento.$error"
+                                 ng-show="myForm.itNascimento.$dirty">
+                                <p ng-message="required">Campo obrigatório.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <table class="table">
+                            <tr>
+                                <th>Nome</th>
+                                <th>E-mail</th>
+                                <th>Nascimento</th>
+                            </tr>
+                            <tr ng-repeat="pessoa in listaDePessoas">
+                                <td ng-bind="pessoa.nome"></td>
+                                <td ng-bind="pessoa.email"></td>
+                                <td ng-bind="pessoa.nascimento | date:'dd/MM/yyyy'"></td>
+                            </tr>
+                        </table>
+
+                        {{entidade.nome | maiusculo}}
+                        <br>
+                        {{entidade.nome}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="pull-right">
+                            <button type="submit"
+                                    class="btn btn-primary">
+                                <i class="fa fa-save"></i>
+                                Salvar
+                            </button>
+                            <button type="submit"
+                                    class="btn btn-warning"
+                                    ng-click="limpar()">
+                                <i class="fa fa-eraser"></i>
+                                Limpar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
