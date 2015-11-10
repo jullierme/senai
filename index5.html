@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-growl/css/growl.css"/>
+    <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css"/>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-growl/src/growl.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+
+    <script src="app/js/index-controller5.js"></script>
+    <script src="app/js/service/alert-service.js"></script>
+
+</head>
+<body ng-app="senai">
+
+<div ng-controller="IndexController" class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Nome</label>
+                <input type="text"
+                       class="form-control"
+                       ng-model="entidade.nome">
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>E-mail</label>
+                <input type="email"
+                       class="form-control"
+                       ng-model="entidade.email">
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div ui-grid="gridOptions"
+                 ui-grid-resize-columns
+                 ng-style="gridStyle">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <button type="button"
+                    class="btn btn-primary"
+                    ng-click="salvar()">
+                <i class="fa fa-save"></i>
+                Salvar
+            </button>
+            <button type="button"
+                    class="btn btn-warning"
+                    ng-click="limpar()">
+                <i class="fa fa-eraser"></i>
+                Limpar
+            </button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

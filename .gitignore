@@ -1,1 +1,3 @@
 bower_components/
+
+ bower install angular-ui-grid --save
