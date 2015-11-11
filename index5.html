@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css"/>
     <link rel="stylesheet" href="bower_components/angular-ui-growl/css/growl.css"/>
     <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css"/>
-
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css"/>
 
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-ui-growl/src/growl.js"></script>
     <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
 
     <script src="app/js/index-controller5.js"></script>
     <script src="app/js/service/alert-service.js"></script>
@@ -25,23 +29,47 @@
 
 <div ng-controller="IndexController" class="container">
     <div class="row">
-        <div class="col-sm-6">
-            <div class="form-group">
+        <div class="col-sm-4">
+            <!--<div class="form-group">
                 <label>Nome</label>
                 <input type="text"
                        class="form-control"
                        ng-model="entidade.nome">
-            </div>
+            </div>-->
+            <md-input-container>
+                <label>Nome</label>
+                <input ng-model="entidade.nome">
+            </md-input-container>
         </div>
 
-        <div class="col-sm-6">
-            <div class="form-group">
+        <div class="col-sm-4">
+            <!--<div class="form-group">
                 <label>E-mail</label>
-                <input type="email"
+                <input type="text"
                        class="form-control"
                        ng-model="entidade.email">
 
-            </div>
+            </div>-->
+
+            <md-input-container>
+                <label>E-mail</label>
+                <input ng-model="entidade.email">
+            </md-input-container>
+        </div>
+
+        <div class="col-sm-4">
+            <!--<div class="form-group">
+                <label>Cor</label>
+                <input type="text"
+                       class="form-control"
+                       ng-model="entidade.cor">
+
+            </div>-->
+
+            <md-input-container>
+                <label>Cor</label>
+                <input ng-model="entidade.cor">
+            </md-input-container>
         </div>
     </div>
     <div class="row">
@@ -54,7 +82,7 @@
     </div>
     <div class="row">
         <div class="col-sm-12">
-            <button type="button"
+            <!--<button type="button"
                     class="btn btn-primary"
                     ng-click="salvar()">
                 <i class="fa fa-save"></i>
@@ -65,7 +93,19 @@
                     ng-click="limpar()">
                 <i class="fa fa-eraser"></i>
                 Limpar
-            </button>
+            </button>-->
+
+            <md-button class="md-raised md-primary"
+                       ng-click="salvar()"
+                       aria-label="Salvar">
+                <md-icon md-font-icon="fa fa-save"></md-icon>
+                Salvar
+            </md-button>
+            <md-button class="md-raised"
+                       ng-click="limpar()"
+                        aria-label="Limpar">
+                Limpar
+            </md-button>
         </div>
     </div>
 
