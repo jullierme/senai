@@ -23,14 +23,14 @@
     <script src="bower_components/angular-material/angular-material.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
+    <script src="app/js/app-config.js"></script>
     <script src="app/js/index-controller5.js"></script>
-    <script src="app/js/service/alert-service.js"></script>
 
+    <script src="//localhost:35729/livereload.js"></script>
 </head>
 <body ng-app="senai">
 
 <div ng-controller="IndexController" class="container-fluid">
-
 
     <md-toolbar>
         <div class="md-toolbar-tools">
@@ -39,14 +39,14 @@
                 <li><a ui-sref="produto">Cadastro de produto</a></li>
                 <li><a ui-sref="produto.pesquisa">Pesquisa de produto</a></li>
 
-                <li><a ui-sref="pessoa.cadastro">Cadastro de pessoa</a></li>
+                <li><a ui-sref="pessoa.cadastro({id:10})">Cadastro de pessoa</a></li>
                 <li><a ui-sref="pessoa.pesquisa">Pesquisa de pessoa</a></li>
             </ul>
         </div>
     </md-toolbar>
 
+    <button ng-click="onAbrirPesquisaPessoa()">Abrir pesquisa de pessoa</button>
     <div ui-view></div>
-
 </div>
 
 </body>

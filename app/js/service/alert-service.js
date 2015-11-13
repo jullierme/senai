@@ -1,51 +1,55 @@
-angular.module('senai')
-    .service('AlertService', AlertService);
+(function(){
+    'use strict';
 
-AlertService.$inject = ['$growl'];
+    angular.module('senai')
+        .service('AlertService', AlertService);
 
-function AlertService($growl){
-    this.showOk = showOk;
-    this.showError = showError;
-    this.showAlert = showAlert;
-    this.showInfo = showInfo;
+    AlertService.$inject = ['$growl'];
 
-    function showOk(titulo, mensagem, tempo){
-        if(!tempo)
-            tempo = 3000;
+    function AlertService($growl){
+        this.showOk = showOk;
+        this.showError = showError;
+        this.showAlert = showAlert;
+        this.showInfo = showInfo;
 
-        $growl.box(titulo, mensagem, {
-            class: 'success',//verde
-            timeout: tempo
-        }).open();
+        function showOk(titulo, mensagem, tempo){
+            if(!tempo)
+                tempo = 3000;
+
+            $growl.box(titulo, mensagem, {
+                class: 'success',//verde
+                timeout: tempo
+            }).open();
+        }
+
+        function showError(titulo, mensagem, tempo){
+            if(!tempo)
+                tempo = 3000;
+
+            $growl.box(titulo, mensagem, {
+                class: 'danger',//vermelho
+                timeout: tempo
+            }).open();
+        }
+
+        function showAlert(titulo, mensagem, tempo){
+            if(!tempo)
+                tempo = 3000;
+
+            $growl.box(titulo, mensagem, {
+                class: 'warning',//laranja
+                timeout: tempo
+            }).open();
+        }
+
+        function showInfo(titulo, mensagem, tempo){
+            if(!tempo)
+                tempo = 3000;
+
+            $growl.box(titulo, mensagem, {
+                class: 'primary',//azul
+                timeout: tempo
+            }).open();
+        }
     }
-
-    function showError(titulo, mensagem, tempo){
-        if(!tempo)
-            tempo = 3000;
-
-        $growl.box(titulo, mensagem, {
-            class: 'danger',//vermelho
-            timeout: tempo
-        }).open();
-    }
-
-    function showAlert(titulo, mensagem, tempo){
-        if(!tempo)
-            tempo = 3000;
-
-        $growl.box(titulo, mensagem, {
-            class: 'warning',//laranja
-            timeout: tempo
-        }).open();
-    }
-
-    function showInfo(titulo, mensagem, tempo){
-        if(!tempo)
-            tempo = 3000;
-
-        $growl.box(titulo, mensagem, {
-            class: 'primary',//azul
-            timeout: tempo
-        }).open();
-    }
-}
+})();
