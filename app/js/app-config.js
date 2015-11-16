@@ -10,8 +10,8 @@
         'oc.lazyLoad'
     ]).config(config);
 
-    config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
+    /*@ngInject*/
     function config($stateProvider, $urlRouterProvider){
         var home = {
             url: '/',

@@ -4,10 +4,7 @@
     angular.module('senai')
         .controller('PesquisaPessoaController', PesquisaPessoaController);
 
+    /*@ngInject*/
     function PesquisaPessoaController(){
-        a = 10;
-
-        alert(a);
     }
-
 })();

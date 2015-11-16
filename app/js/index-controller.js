@@ -3,8 +3,7 @@ angular.module('senai',[]);
 angular.module('senai')
     .controller('IndexController', IndexController);
 
-IndexController.$inject = ['$scope'];
-
+/*@ngInject*/
 function IndexController($scope){
     $scope.adicionarCarro = adicionarCarro;
     $scope.alterarNome = alterarNome;
@@ -26,7 +25,3 @@ function IndexController($scope){
         $scope.carros[0].nome = $scope.carros[0].nome + 'AAA';
     }
 }
-
-git add .
-git commit -m "Comentario"
-git push -u origin master

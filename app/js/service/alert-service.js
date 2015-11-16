@@ -4,8 +4,7 @@
     angular.module('senai')
         .service('AlertService', AlertService);
 
-    AlertService.$inject = ['$growl'];
-
+    /*@ngInject*/
     function AlertService($growl){
         this.showOk = showOk;
         this.showError = showError;

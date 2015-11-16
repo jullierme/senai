@@ -1,6 +1,7 @@
 angular.module('senai')
     .controller('CadastroPessoaController', CadastroPessoaController);
 
+/*@ngInject*/
 function CadastroPessoaController($scope, $stateParams){
     var vm = this;
     vm.nome = 'teste oclazy';

@@ -1,0 +1,1 @@
+function CadastroPessoaController(a,b){function c(){var b={};b.nome="asdfsadf",a.$emit("eventoTeste",b)}var d=this;d.nome="teste oclazy",alert(b.id),d.dispararEvento=c}angular.module("senai").controller("CadastroPessoaController",CadastroPessoaController),CadastroPessoaController.$inject=["$scope","$stateParams"];

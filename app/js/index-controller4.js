@@ -3,8 +3,7 @@ angular.module('senai',['ngMessages','ui.growl']);
 angular.module('senai')
     .controller('IndexController', IndexController);
 
-IndexController.$inject = ['$scope', 'AlertService'];
-
+/*@ngInject*/
 function IndexController($scope, AlertService){
     $scope.entidade = {};
     $scope.listaDePessoas = [];

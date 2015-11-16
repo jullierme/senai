@@ -3,8 +3,7 @@ angular.module('senai',[]);
 angular.module('senai')
     .controller('IndexController', IndexController);
 
-IndexController.$inject = ['$scope'];
-
+/*@ngInject*/
 function IndexController($scope){
     $scope.nome = '';
     $scope.styleDiv = {};

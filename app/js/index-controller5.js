@@ -4,6 +4,7 @@
     angular.module('senai')
         .controller('IndexController', IndexController);
 
+    /*@ngInject*/
     function IndexController($scope, AlertService, $state, $rootScope){
         $scope.listaDePessoas = [];
         $scope.entidade = {};
