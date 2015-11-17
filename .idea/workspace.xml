@@ -21,71 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cadastro-pessoa-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pessoa/cadastro-pessoa-controller.js">
+      <file leaf-file-name="crud.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arquitetura/directives/crud/crud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pessoa-service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pessoa/pessoa-service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pesquisa-pessoa-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pessoa/pesquisa-pessoa-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45772594">
-              <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cell-template-btn-excluir.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/app/templates/cell-template-btn-excluir.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="row-template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/app/templates/row-template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cell-template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/app/templates/cell-template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.34409937">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -129,12 +69,19 @@
         <option value="$PROJECT_DIR$/app/js/app-config.js" />
         <option value="$PROJECT_DIR$/app/js/index-controller.js" />
         <option value="$PROJECT_DIR$/app/js/index-controller4.js" />
-        <option value="$PROJECT_DIR$/app/js/index-controller5.js" />
         <option value="$PROJECT_DIR$/app/js/index-controller-2.js" />
         <option value="$PROJECT_DIR$/app/views/pessoa/cadastro-pessoa-controller.js" />
         <option value="$PROJECT_DIR$/app/views/pessoa/pesquisa-pessoa-controller.js" />
         <option value="$PROJECT_DIR$/build/source.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/primeira-directiva/primeira-directiva.js" />
+        <option value="$PROJECT_DIR$/app/js/index-controller5.js" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/input-text/input-text.js" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/input-text/input-text.html" />
+        <option value="$PROJECT_DIR$/index7.html" />
+        <option value="$PROJECT_DIR$/index8.html" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/crud/crud.html" />
+        <option value="$PROJECT_DIR$/arquitetura/directives/crud/crud.js" />
       </list>
     </option>
   </component>
@@ -248,7 +195,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="arquitetura" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primeira-directiva" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,41 +217,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="arquitetura" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="senai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="senai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="produto" />
+              <option name="myItemId" value="input-text" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,19 +239,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="arquitetura" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pessoa" />
+              <option name="myItemId" value="crud" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,15 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,11 +275,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,27 +296,21 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\senai\app\views\pessoa" />
       <recent name="E:\workspace\senai" />
+      <recent name="E:\workspace\senai\app\views\pessoa" />
       <recent name="E:\workspace\senai\app\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\senai\app\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index6.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="file://$PROJECT_DIR$/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="index2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/senai/index2.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index8.html">
     <configuration default="false" name="index4.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/senai/index4.html">
       <method />
     </configuration>
@@ -407,6 +318,12 @@
       <method />
     </configuration>
     <configuration default="false" name="index6.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/senai/index6.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index7.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/senai/index7.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index8.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/senai/index8.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -459,19 +376,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ngmessages" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index2.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index5.html" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.index6.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index5.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index6.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index7.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.index8.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index6.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index5.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index2.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index8.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index7.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index6.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index5.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
       </list>
     </recent_temporary>
   </component>
@@ -492,17 +409,17 @@
     <frame x="-9" y="-9" width="1618" height="881" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19822672" sideWeight="0.46207866" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.170625" sideWeight="0.4347826" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19822672" sideWeight="0.53792137" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.170625" sideWeight="0.5652174" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24438202" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17396185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13291925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37814072" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39751554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -520,15 +437,16 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26599112" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24438202" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13291925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1709943" sideWeight="0.43960676" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1709943" sideWeight="0.5603933" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4072096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37763974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -544,65 +462,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/service/alert-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/index-controller4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -663,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="24" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,13 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7004049">
           <caret line="34" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8858351">
-          <caret line="140" column="22" selection-start-line="124" selection-start-column="16" selection-end-line="140" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -716,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5714286">
-          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pessoa/pesquisa-pessoa.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -755,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8461537">
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7090909">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,15 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6121212">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5131313">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,15 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,15 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/index-controller5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="62" selection-start-line="0" selection-start-column="62" selection-end-line="0" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,9 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,9 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,8 +741,234 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45772594">
+        <state vertical-scroll-proportion="0.31809872">
           <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2041237">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <marker date="1447715585829" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1447715585829" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447715585829" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1447715585829" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447715585829" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/index-controller5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4082474">
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="23" />
+          <folding>
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{&quot;data&quot;: 'listaDePessoas'...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798257749" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/primeira-directiva/primeira-directiva.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6969072">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <marker date="1447795503110" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1447795503110" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447795503110" expanded="true" signature="-1:-1" placeholder="{&quot;restrict&quot;: 'E'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/input-text/input-text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08650065">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <marker date="1447801662844" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447801662844" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447801662844" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.038007863">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <marker date="1447458283991" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447458283991" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447458283991" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447458283991" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447458283991" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447458283991" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447458283991" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.587156">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+          <folding>
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447285391421" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5674967">
+          <caret line="142" column="14" selection-start-line="25" selection-start-column="5" selection-end-line="142" selection-end-column="14" />
+          <folding>
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447110160084" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+          <folding>
+            <marker date="1447803311632" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803311632" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803311632" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803311632" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803311632" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803311632" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/input-text/input-text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33195877">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <marker date="1447798793047" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798793047" expanded="true" signature="-1:-1" placeholder="{&quot;restrict&quot;: 'E'...}" />
+            <marker date="1447798793047" expanded="true" signature="-1:-1" placeholder="{&quot;label&quot;: '@'...}" />
+            <marker date="1447798793047" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798793047" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798793047" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1447798793047" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/crud/crud.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803475330" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44954127">
+          <caret line="38" column="43" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1447803428091" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquitetura/directives/crud/crud.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34409937">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
         </state>
       </provider>

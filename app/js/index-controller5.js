@@ -18,6 +18,7 @@
         $scope.gridStyle = {};
         $scope.gridStyle.width = '100%';
         $scope.gridStyle.height = '200px';
+        $scope.onFocusOutNome = onFocusOutNome;
 
         $scope.gridOptions = {
             data: 'listaDePessoas',
@@ -80,6 +81,12 @@
 
         function limpar(){
             $scope.entidade = {};
+        }
+
+        $scope.contador = 0;
+
+        function onFocusOutNome($event){
+            $scope.contador += 1;
         }
     }
 })();
