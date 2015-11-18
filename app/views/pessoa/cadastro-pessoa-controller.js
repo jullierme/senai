@@ -1,19 +1,27 @@
-angular.module('senai')
-    .controller('CadastroPessoaController', CadastroPessoaController);
+(function(){
+    'use strict';
 
-/*@ngInject*/
-function CadastroPessoaController($scope, $stateParams){
-    var vm = this;
-    vm.nome = 'teste oclazy';
+    angular.module('senai')
+        .controller('CadastroPessoaController', CadastroPessoaController);
 
-    alert($stateParams.id);
+    /*@ngInject*/
+    function CadastroPessoaController(AlertService){
+        var vm = this;
+        vm.entidade = {};
+        vm.salvar = salvar;
+        vm.limpar = limpar;
+        vm.excluir = excluir;
 
-    vm.dispararEvento = dispararEvento;
+        function salvar(){
+            AlertService.showOk('Registro salvo com sucesso!');
+        }
 
-    function dispararEvento() {
-        var obj = {};
-        obj.nome = 'asdfsadf';
+        function limpar(){
+            vm.entidade = {};
+        }
 
-        $scope.$emit('eventoTeste', obj);
+        function excluir(){
+            AlertService.showOk('Registro excluido com sucesso!');
+        }
     }
-}
+})();

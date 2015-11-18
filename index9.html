@@ -30,27 +30,25 @@
     <script src="arquitetura/directives/primeira-directiva/primeira-directiva.js"></script>
     <script src="arquitetura/directives/input-text/input-text.js"></script>
     <script src="arquitetura/directives/crud/crud.js"></script>
+    <script src="arquitetura/directives/enter/enter.js"></script>
 </head>
 <body ng-app="senai">
 
 <div ng-controller="IndexController" class="container-fluid">
 
-    <sm-crud titulo="Cadastro de Pessoa">
-        <div class="row">
-            <sn-input-text label="Nome"
-                           ng-model="entidade.nome"
-                           colspan="4">
-            </sn-input-text>
-            <sn-input-text label="Sobrenome"
-                           ng-model="entidade.sobrenome"
-                           colspan="4">
-            </sn-input-text>
-            <sn-input-text label="Idade"
-                           ng-model="entidade.idade"
-                           colspan="4">
-            </sn-input-text>
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <ul class="nav nav-pills">
+                <li><a ui-sref="home">Home</a></li>
+                <li><a ui-sref="produto">Cadastro de produto</a></li>
+                <li><a ui-sref="produto.pesquisa">Pesquisa de produto</a></li>
+                <li><a ui-sref="pessoa.cadastro">Cadastro de pessoa</a></li>
+                <li><a ui-sref="pessoa.pesquisa">Pesquisa de pessoa</a></li>
+            </ul>
         </div>
-    </sm-crud>
+    </md-toolbar>
+
+    <div ui-view></div>
 </div>
 
 </body>

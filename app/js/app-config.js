@@ -7,7 +7,8 @@
         'ui.grid.resizeColumns',
         'ngMaterial',
         'ui.router',
-        'oc.lazyLoad'
+        'oc.lazyLoad',
+        'angular-keycode'
     ]).config(config);
 
 
@@ -19,7 +20,13 @@
         };
         var produto = {
             url: '/produto',
-            templateUrl: 'app/views/produto/cadastro-produto.html'
+            templateUrl: 'app/views/produto/cadastro-produto.html',
+            resolve: {
+                deps: function ($ocLazyLoad) {
+                    return $ocLazyLoad
+                        .load('app/views/produto/cadastro-produto-controller.js');
+                }
+            }
         };
         var produtoPesquisa = {
             url: '/pesquisa',

@@ -1,8 +1,13 @@
-<div style="background-color: #00b3ee; width: 100%; height: 200px;"
-        ng-controller="CadastroPessoaController as vm">
-    cadastro de pessoa
-
-    {{vm.nome}}
-
-    <button ng-click="vm.dispararEvento()">Disparar evento</button>
+<div ng-controller="CadastroPessoaController as vm">
+    <sn-crud titulo="Cadastro de pessoa"
+            salvar="vm.salvar()"
+            limpar="vm.limpar()"
+            excluir="vm.excluir()">
+        <div class="row">
+            <sn-input-text
+                    label="Nome"
+                    ng-model="vm.entidade.nome">
+            </sn-input-text>
+        </div>
+    </sn-crud>
 </div>

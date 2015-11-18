@@ -3,34 +3,34 @@
         <span ng-bind="titulo"></span>
     </div>
     <div class="panel-body">
+        <ng-transclude></ng-transclude>
 
-        <form novalidate
-              ng-submit="salvar()">
-
-            <ng-transclude></ng-transclude>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div>
-                        <button type="submit"
-                                class="btn btn-primary">
-                            <i class="fa fa-save"></i>
-                            Salvar
-                        </button>
-                        <button type="submit"
-                                class="btn btn-warning"
-                                ng-click="limpar()">
-                            <i class="fa fa-eraser"></i>
-                            Limpar
-                        </button>
-                        <button type="submit"
-                                class="btn btn-danger">
-                            <i class="fa fa-trash"></i>
-                            Excluir
-                        </button>
-                    </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div>
+                    <button type="submit"
+                            class="btn btn-primary"
+                            ng-click="onSalvar()"
+                            ng-if="exibirBotaoSalvar">
+                        <i class="fa fa-save"></i>
+                        Salvar
+                    </button>
+                    <button type="submit"
+                            class="btn btn-warning"
+                            ng-click="onLimpar()"
+                            ng-if="exibirBotaoLimpar">
+                        <i class="fa fa-eraser"></i>
+                        Limpar
+                    </button>
+                    <button type="submit"
+                            class="btn btn-danger"
+                            ng-click="onExcluir()"
+                            ng-if="exibirBotaoExcluir">
+                        <i class="fa fa-trash"></i>
+                        Excluir
+                    </button>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
 </div>
